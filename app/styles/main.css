@@ -103,3 +103,33 @@ div.main h1, div.main h5 {
 div.mask.rgba-black-light.align-items-center {
   height: 100%;
 }
+
+.modal-notify .modal-header {
+  border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+  border-radius: 3px;
+}
+
+.modal-header {
+  background-color: #84b946;
+}
+
+.btn-outline-todo {
+  border: 2px solid #84b946 !important;
+  background-color: transparent !important;
+  color: #84b946 !important; }
+  .btn-outline-warning:hover, .btn-outline-warning:focus, .btn-outline-warning:active, .btn-outline-warning:active:focus, .btn-outline-warning.active {
+    border-color: #84b946 !important;
+    background-color: transparent !important;
+    color: #84b946 !important; }
+  .btn-outline-warning:not([disabled]):not(.disabled):active, .btn-outline-warning:not([disabled]):not(.disabled).active,
+  .show > .btn-outline-warning.dropdown-toggle {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent !important;
+    border-color: #84b946 !important; }
+  .btn-outline-warning:not([disabled]):not(.disabled):active:focus, .btn-outline-warning:not([disabled]):not(.disabled).active:focus,
+  .show > .btn-outline-warning.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
